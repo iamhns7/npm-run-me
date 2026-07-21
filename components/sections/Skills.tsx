@@ -29,7 +29,7 @@ export function Skills() {
                 <span className="font-mono text-[0.65rem] uppercase tracking-[0.18em] text-accent">
                   {t(`categories.${skill.category}`)}
                 </span>
-                <p className="mt-3 font-display text-lg font-semibold text-foreground">
+                <p className="mt-3 font-display text-xl font-semibold text-foreground">
                   {skill.name}
                 </p>
               </div>

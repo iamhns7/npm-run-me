@@ -65,7 +65,7 @@ export function Hero() {
 
         <motion.h1
           variants={item}
-          className="mt-4 max-w-4xl font-display text-4xl font-bold leading-[1.05] tracking-tight text-balance sm:text-6xl md:text-7xl"
+          className="mt-4 max-w-4xl font-display text-5xl font-medium leading-[1.05] tracking-normal text-balance sm:text-6xl md:text-7xl"
         >
           {t("tagline")}
         </motion.h1>

@@ -26,7 +26,7 @@ export function ProjectCard({
       />
 
       <div className="flex items-start justify-between gap-4">
-        <h3 className="font-display text-xl font-bold tracking-tight text-foreground sm:text-2xl">
+        <h3 className="font-display text-2xl font-semibold tracking-normal text-foreground sm:text-3xl">
           {labels.title}
         </h3>
         {project.featured && (

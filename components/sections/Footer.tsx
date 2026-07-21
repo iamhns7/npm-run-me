@@ -19,7 +19,7 @@ export function Footer() {
             <span className="grid size-8 place-items-center rounded-md border border-accent/40 bg-accent-soft font-mono text-sm font-bold text-accent">
               {siteConfig.shortName}
             </span>
-            <span className="font-display text-sm font-semibold tracking-tight">
+            <span className="font-display text-base font-semibold tracking-normal">
               {siteConfig.name}
             </span>
           </a>

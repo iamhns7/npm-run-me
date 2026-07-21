@@ -35,7 +35,7 @@ export function About() {
                 <span className="font-mono text-xs uppercase tracking-wider text-muted">
                   {stat.label}
                 </span>
-                <span className="font-display text-lg font-semibold text-foreground">
+                <span className="font-display text-xl font-semibold text-foreground">
                   {stat.value}
                 </span>
               </RevealItem>

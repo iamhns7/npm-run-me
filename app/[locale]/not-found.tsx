@@ -10,7 +10,7 @@ export default async function LocaleNotFound() {
         <span className="font-mono text-sm uppercase tracking-[0.2em] text-accent">
           404
         </span>
-        <h1 className="max-w-md font-display text-3xl font-bold tracking-tight sm:text-4xl">
+        <h1 className="max-w-md font-display text-4xl font-medium tracking-normal sm:text-5xl">
           {t("title")}
         </h1>
         <p className="max-w-sm text-muted text-pretty">{t("description")}</p>

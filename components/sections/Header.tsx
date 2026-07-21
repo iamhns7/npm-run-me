@@ -40,7 +40,7 @@ export function Header() {
           <span className="grid size-8 place-items-center rounded-md border border-accent/40 bg-accent-soft font-mono text-sm font-bold text-accent transition-colors group-hover:border-accent">
             {siteConfig.shortName}
           </span>
-          <span className="hidden font-display text-sm font-semibold tracking-tight sm:inline">
+          <span className="hidden font-display text-base font-semibold tracking-normal sm:inline">
             {siteConfig.name}
           </span>
         </a>
