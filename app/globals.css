@@ -1,26 +1,163 @@
 @import "tailwindcss";
 
+/* Class-based dark mode driven by next-themes (`class="dark"` on <html>). */
+@custom-variant dark (&:where(.dark, .dark *));
+
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --surface: #f7f8fa;
+  --surface-2: #eef0f4;
+  --foreground: #0a0a0b;
+  --muted: #5b616e;
+  --border: #e4e7ec;
+  /* Sage-teal accent (based on #7CB1A1). Light mode deepens it for readable
+     text/links on white; the soft washes keep the original lighter tone. */
+  --accent: #2e8c76;
+  --accent-hover: #1f6e5c;
+  --accent-contrast: #ffffff;
+  --accent-soft: rgba(124, 177, 161, 0.16);
+  --accent-glow: rgba(124, 177, 161, 0.3);
+  --hairline: rgba(10, 10, 11, 0.08);
+}
+
+.dark {
+  --background: #0a0a0b;
+  --surface: #121316;
+  --surface-2: #1a1c20;
+  --foreground: #f5f6f8;
+  --muted: #9aa0ac;
+  --border: #26292f;
+  /* On dark surfaces the reference tone reads beautifully as-is. */
+  --accent: #7cb1a1;
+  --accent-hover: #93c4b4;
+  --accent-contrast: #04120d;
+  --accent-soft: rgba(124, 177, 161, 0.14);
+  --accent-glow: rgba(124, 177, 161, 0.38);
+  --hairline: rgba(245, 246, 248, 0.08);
 }
 
 @theme inline {
   --color-background: var(--background);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-muted: var(--muted);
+  --color-border: var(--border);
+  --color-accent: var(--accent);
+  --color-accent-hover: var(--accent-hover);
+  --color-accent-contrast: var(--accent-contrast);
+
+  --font-sans: var(--font-body);
+  --font-display: var(--font-display);
+  --font-mono: var(--font-mono);
+  --font-arabic: var(--font-arabic);
+
+  --shadow-glow: 0 0 0 1px var(--accent-soft), 0 8px 40px -12px var(--accent-glow);
+
+  --animate-marquee: marquee 32s linear infinite;
+
+  --breakpoint-xs: 26rem;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+@layer base {
+  * {
+    border-color: var(--border);
+  }
+
+  html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    background: var(--background);
+    color: var(--foreground);
+    font-family: var(--font-body), var(--font-arabic), system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  /* Arabic gets a dedicated face for correct shaping and rhythm. */
+  :lang(ar) {
+    font-family: var(--font-arabic), var(--font-body), system-ui, sans-serif;
+  }
+
+  /* Consistent, visible focus ring across the site. */
+  :focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
+    border-radius: 4px;
+  }
+
+  ::selection {
+    background: var(--accent);
+    color: var(--accent-contrast);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.001ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.001ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}
+
+@layer components {
+  /* Signature element: a fine accent hairline that precedes eyebrow labels.
+     Built with logical direction so it mirrors correctly in RTL. */
+  .eyebrow {
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--accent);
+    display: inline-flex;
+    align-items: center;
+    gap: 0.6rem;
+  }
+
+  .eyebrow::before {
+    content: "";
+    inline-size: 1.75rem;
+    block-size: 1px;
+    background: linear-gradient(to right, transparent, var(--accent));
+  }
+
+  [dir="rtl"] .eyebrow::before {
+    background: linear-gradient(to left, transparent, var(--accent));
+  }
+
+  /* Subtle accent grid/glow backdrop used behind the hero. */
+  .grid-backdrop {
+    background-image:
+      linear-gradient(to right, var(--hairline) 1px, transparent 1px),
+      linear-gradient(to bottom, var(--hairline) 1px, transparent 1px);
+    background-size: 64px 64px;
+    -webkit-mask-image: radial-gradient(
+      ellipse 70% 60% at 50% 0%,
+      #000 40%,
+      transparent 100%
+    );
+    mask-image: radial-gradient(
+      ellipse 70% 60% at 50% 0%,
+      #000 40%,
+      transparent 100%
+    );
+  }
 }

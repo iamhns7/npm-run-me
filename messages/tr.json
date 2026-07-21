@@ -1,0 +1,98 @@
+{
+  "meta": {
+    "title": "Hasan Sido — Frontend Mühendisi",
+    "description": "Modern web için hızlı ve zarif arayüzler geliştiren frontend mühendisi. Şu anda STH'nin yazılım şirketi STP'de gerçek dünya ürünleri geliştiriyor.",
+    "ogAlt": "Hasan Sido — Frontend Mühendisi"
+  },
+  "nav": {
+    "about": "Hakkımda",
+    "skills": "Yetenekler",
+    "projects": "Projeler",
+    "contact": "İletişim"
+  },
+  "a11y": {
+    "primaryNav": "Birincil",
+    "toggleTheme": "Temayı değiştir",
+    "switchToLight": "Açık temaya geç",
+    "switchToDark": "Koyu temaya geç",
+    "selectLanguage": "Dil seç",
+    "openMenu": "Menüyü aç",
+    "closeMenu": "Menüyü kapat",
+    "skipToContent": "İçeriğe geç",
+    "backToTop": "Başa dön",
+    "socialGithub": "GitHub profili",
+    "socialLinkedin": "LinkedIn profili",
+    "socialEmail": "E-posta gönder"
+  },
+  "hero": {
+    "eyebrow": "Frontend Mühendisi · STP",
+    "greeting": "Merhaba, ben Hasan Sido",
+    "tagline": "Modern web için hızlı ve zarif arayüzler geliştiren frontend mühendisi.",
+    "subline": "Şu anda STH'nin yazılım şirketi STP'de gerçek dünya ürünleri geliştiriyorum — ve her gün yeni bir şey öğreniyorum.",
+    "ctaProjects": "Projeleri gör",
+    "ctaContact": "İletişime geç",
+    "availability": "Yeni fırsatlara açığım"
+  },
+  "about": {
+    "eyebrow": "Hakkımda",
+    "title": "Arayüzleri bilinçli bir şekilde tasarlıyorum.",
+    "paragraph": "Frontend geliştirmeye odaklanan bir yazılım mühendisiyim. Kısa süre önce ilk büyük ölçekli, üretim düzeyindeki ürünüm üzerinde çalışmaya başladım ve her commit ile birlikte gelişiyorum. Beni motive eden şey sürekli gelişim ve sıradaki teknolojiye duyduğum gerçek merak — yeni teknolojileri erkenden anlamayı ve neden önemli olduklarını bilmeyi seviyorum.",
+    "stats": {
+      "focusLabel": "Odak",
+      "focusValue": "Frontend",
+      "companyLabel": "Geliştirdiği yer",
+      "companyValue": "STP · STH",
+      "mindsetLabel": "Yaklaşım",
+      "mindsetValue": "Her zaman öğrenmek"
+    }
+  },
+  "skills": {
+    "eyebrow": "Yetenekler",
+    "title": "Kullandığım teknolojiler.",
+    "subtitle": "Hızlı, erişilebilir ve sürdürülebilir arayüzler geliştirmek için başvurduğum araçlar.",
+    "categories": {
+      "language": "Dil",
+      "framework": "Çatı",
+      "styling": "Stil",
+      "tooling": "Araçlar"
+    }
+  },
+  "projects": {
+    "eyebrow": "Projeler",
+    "title": "Geliştirdiğim şeyler.",
+    "subtitle": "Zanaat, yapı ve detaya bakışımı yansıtan birkaç proje.",
+    "featured": "Öne çıkan",
+    "liveSoon": "Canlı demo yakında",
+    "viewCode": "Kodu gör",
+    "viewLive": "Canlı demo",
+    "items": {
+      "designSystem": {
+        "title": "Portföy Tasarım Sistemi",
+        "description": "Çok dilli, RTL uyumlu bir portföyü güçlendiren; düzenli hareketler ve disiplinli bir teal vurgusuyla tipli ve temalandırılabilir bir bileşen sistemi."
+      },
+      "dashboard": {
+        "title": "Analitik Paneli",
+        "description": "Veri yoğun düzenleri, erişilebilir grafikleri ve akıcı durum geçişlerini temiz bir bileşen mimarisi üzerinde keşfeden duyarlı bir panel."
+      }
+    }
+  },
+  "contact": {
+    "eyebrow": "İletişim",
+    "title": "Birlikte bir şeyler geliştirelim.",
+    "paragraph": "Frontend işleri, yeni fırsatlar ya da prototipe değer bir fikir hakkında konuşmaktan her zaman memnuniyet duyarım. Bana ulaşmanın en hızlı yolu e-postadır.",
+    "emailLabel": "E-posta",
+    "githubLabel": "GitHub",
+    "linkedinLabel": "LinkedIn",
+    "downloadCv": "CV indir",
+    "cvNote": "PDF · özgeçmiş"
+  },
+  "footer": {
+    "rights": "Tüm hakları saklıdır.",
+    "builtWith": "Next.js, TypeScript ve Tailwind CSS ile tasarlandı ve geliştirildi."
+  },
+  "notFound": {
+    "title": "Bu sayfa kaybolmuş.",
+    "description": "Aradığınız sayfa mevcut değil ya da taşınmış.",
+    "home": "Ana sayfaya dön"
+  }
+}

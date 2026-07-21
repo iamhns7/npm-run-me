@@ -1,0 +1,98 @@
+{
+  "meta": {
+    "title": "Hasan Sido — Frontend Engineer",
+    "description": "Frontend engineer crafting fast, elegant interfaces for the modern web. Currently building real-world products at STP, the software company of STH.",
+    "ogAlt": "Hasan Sido — Frontend Engineer"
+  },
+  "nav": {
+    "about": "About",
+    "skills": "Skills",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "a11y": {
+    "primaryNav": "Primary",
+    "toggleTheme": "Toggle theme",
+    "switchToLight": "Switch to light theme",
+    "switchToDark": "Switch to dark theme",
+    "selectLanguage": "Select language",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "skipToContent": "Skip to content",
+    "backToTop": "Back to top",
+    "socialGithub": "GitHub profile",
+    "socialLinkedin": "LinkedIn profile",
+    "socialEmail": "Send an email"
+  },
+  "hero": {
+    "eyebrow": "Frontend Engineer · STP",
+    "greeting": "Hi, I'm Hasan Sido",
+    "tagline": "Frontend engineer crafting fast, elegant interfaces for the modern web.",
+    "subline": "Currently building real-world products at STP — STH's software company — and learning something new every single day.",
+    "ctaProjects": "View projects",
+    "ctaContact": "Get in touch",
+    "availability": "Open to new opportunities"
+  },
+  "about": {
+    "eyebrow": "About",
+    "title": "Engineering interfaces with intent.",
+    "paragraph": "I'm a software engineer focused on frontend development. I recently started working on my first large-scale, production product, where I grow with every commit. What drives me is continuous improvement and a genuine curiosity about what's next — I like to understand new technologies early and know why they matter.",
+    "stats": {
+      "focusLabel": "Focus",
+      "focusValue": "Frontend",
+      "companyLabel": "Building at",
+      "companyValue": "STP · STH",
+      "mindsetLabel": "Mindset",
+      "mindsetValue": "Always learning"
+    }
+  },
+  "skills": {
+    "eyebrow": "Skills",
+    "title": "The stack I build with.",
+    "subtitle": "Tools I reach for to ship fast, accessible, and maintainable interfaces.",
+    "categories": {
+      "language": "Language",
+      "framework": "Framework",
+      "styling": "Styling",
+      "tooling": "Tooling"
+    }
+  },
+  "projects": {
+    "eyebrow": "Projects",
+    "title": "Things I've been building.",
+    "subtitle": "A few projects that reflect how I think about craft, structure, and detail.",
+    "featured": "Featured",
+    "liveSoon": "Live demo coming soon",
+    "viewCode": "View code",
+    "viewLive": "Live demo",
+    "items": {
+      "designSystem": {
+        "title": "Portfolio Design System",
+        "description": "A typed, themeable component system powering a multilingual, RTL-aware portfolio with orchestrated motion and a disciplined sage-teal accent."
+      },
+      "dashboard": {
+        "title": "Analytics Dashboard",
+        "description": "A responsive dashboard exploring data-dense layouts, accessible charts, and smooth state transitions built on a clean component architecture."
+      }
+    }
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Let's build something.",
+    "paragraph": "I'm always happy to talk about frontend work, new opportunities, or an idea worth prototyping. The fastest way to reach me is email.",
+    "emailLabel": "Email",
+    "githubLabel": "GitHub",
+    "linkedinLabel": "LinkedIn",
+    "downloadCv": "Download CV",
+    "cvNote": "PDF · résumé"
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "builtWith": "Designed & built with Next.js, TypeScript & Tailwind CSS."
+  },
+  "notFound": {
+    "title": "This page wandered off.",
+    "description": "The page you're looking for doesn't exist or has moved.",
+    "home": "Back home"
+  }
+}
