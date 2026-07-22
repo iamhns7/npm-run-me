@@ -1,8 +1,8 @@
 {
   "meta": {
-    "title": "Hasan Sido — Frontend Engineer",
-    "description": "Frontend engineer crafting fast, elegant interfaces for the modern web. Currently building real-world products at STP, the software company of STH.",
-    "ogAlt": "Hasan Sido — Frontend Engineer"
+    "title": "Hasan Sido — Frontend Developer",
+    "description": "Front end developer building responsive, modern web experiences. Currently working frontend at STP, STH's marketing agency, and building websites for clients with my own team on the side.",
+    "ogAlt": "Hasan Sido — Frontend Developer"
   },
   "nav": {
     "about": "About",
@@ -25,10 +25,10 @@
     "socialEmail": "Send an email"
   },
   "hero": {
-    "eyebrow": "Frontend Engineer · STP",
+    "eyebrow": "Frontend Developer · STP",
     "greeting": "Hi, I'm Hasan Sido",
-    "tagline": "Frontend engineer crafting fast, elegant interfaces for the modern web.",
-    "subline": "Currently building real-world products at STP — STH's software company — and learning something new every single day.",
+    "tagline": "Front end developer building responsive, modern web experiences.",
+    "subline": "Currently working frontend at STP — STH's marketing agency — and building websites for clients with my own team on the side.",
     "ctaProjects": "View projects",
     "ctaContact": "Get in touch",
     "availability": "Open to new opportunities"
@@ -36,7 +36,7 @@
   "about": {
     "eyebrow": "About",
     "title": "Engineering interfaces with intent.",
-    "paragraph": "I'm a software engineer focused on frontend development. I recently started working on my first large-scale, production product, where I grow with every commit. What drives me is continuous improvement and a genuine curiosity about what's next — I like to understand new technologies early and know why they matter.",
+    "paragraph": "I'm a front end developer building responsive, modern web interfaces. I currently work frontend at STP, STH's marketing agency, and alongside that I lead a small team building websites for clients. What drives me is continuous improvement and a genuine curiosity about what's next — I like to understand new technologies early and know why they matter.",
     "stats": {
       "focusLabel": "Focus",
       "focusValue": "Frontend",

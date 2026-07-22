@@ -60,14 +60,14 @@ export function Hero() {
         <motion.p variants={item} className="mt-8">
           {/* Language-neutral signature (proper noun + role), typed out via a
               CSS-only typewriter. --tw-steps/--tw-width must match the glyph
-              count of the string below (30 chars → 30ch). `dir="ltr"` keeps it
+              count of the string below (29 chars → 29ch). `dir="ltr"` keeps it
               typing left-to-right even under RTL locales. */}
           <span
             dir="ltr"
-            style={{ "--tw-steps": 30, "--tw-width": "30ch" } as CSSProperties}
+            style={{ "--tw-steps": 29, "--tw-width": "29ch" } as CSSProperties}
             className="typewriter font-mono text-base font-medium text-accent sm:text-lg"
           >
-            Hasan Sido · Software Engineer
+            Hasan Sido Frontend Developer
           </span>
         </motion.p>
 

@@ -2,8 +2,10 @@ export const siteConfig = {
   name: "Hasan Sido",
   shortName: "HS",
   url: "https://hasansido.dev",
-  role: "Frontend Engineer",
-  // Hasan works at STP, the software company within the larger STH group.
+  role: "Frontend Developer",
+  // Hasan works as a frontend developer at STP, the marketing agency within
+  // the larger STH group. He also builds websites for clients with his own
+  // team on the side.
   company: "STP",
   parentCompany: "STH",
   email: "sidohasan63@gmail.com",

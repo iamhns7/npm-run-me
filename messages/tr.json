@@ -1,8 +1,8 @@
 {
   "meta": {
-    "title": "Hasan Sido — Frontend Mühendisi",
-    "description": "Modern web için hızlı ve zarif arayüzler geliştiren frontend mühendisi. Şu anda STH'nin yazılım şirketi STP'de gerçek dünya ürünleri geliştiriyor.",
-    "ogAlt": "Hasan Sido — Frontend Mühendisi"
+    "title": "Hasan Sido — Front End Developer",
+    "description": "Responsive, modern web deneyimleri geliştiren front end developer. Şu anda STH'nin pazarlama şirketi STP'de frontend olarak çalışıyor, kendi ekibiyle müşterilere de web sitesi hizmeti veriyor.",
+    "ogAlt": "Hasan Sido — Front End Developer"
   },
   "nav": {
     "about": "Hakkımda",
@@ -25,10 +25,10 @@
     "socialEmail": "E-posta gönder"
   },
   "hero": {
-    "eyebrow": "Frontend Mühendisi · STP",
+    "eyebrow": "Front End Developer · STP",
     "greeting": "Merhaba, ben Hasan Sido",
-    "tagline": "Modern web için hızlı ve zarif arayüzler geliştiren frontend mühendisi.",
-    "subline": "Şu anda STH'nin yazılım şirketi STP'de gerçek dünya ürünleri geliştiriyorum — ve her gün yeni bir şey öğreniyorum.",
+    "tagline": "Responsive, modern web deneyimleri geliştiren front end developer.",
+    "subline": "Şu anda STH'nin pazarlama şirketi STP'de frontend olarak çalışıyorum — ve kendi ekibimle müşterilere web sitesi hizmeti de sunuyorum.",
     "ctaProjects": "Projeleri gör",
     "ctaContact": "İletişime geç",
     "availability": "Yeni fırsatlara açığım"
@@ -36,7 +36,7 @@
   "about": {
     "eyebrow": "Hakkımda",
     "title": "Arayüzleri bilinçli bir şekilde tasarlıyorum.",
-    "paragraph": "Frontend geliştirmeye odaklanan bir yazılım mühendisiyim. Kısa süre önce ilk büyük ölçekli, üretim düzeyindeki ürünüm üzerinde çalışmaya başladım ve her commit ile birlikte gelişiyorum. Beni motive eden şey sürekli gelişim ve sıradaki teknolojiye duyduğum gerçek merak — yeni teknolojileri erkenden anlamayı ve neden önemli olduklarını bilmeyi seviyorum.",
+    "paragraph": "Responsive, modern web arayüzleri geliştiren bir front end developer'ım. Şu anda STH'nin pazarlama şirketi STP'de frontend olarak çalışıyorum, bunun yanında kendi ekibimle müşterilere web sitesi hizmeti de veriyorum. Beni motive eden şey sürekli gelişim ve sıradaki teknolojiye duyduğum gerçek merak — yeni teknolojileri erkenden anlamayı ve neden önemli olduklarını bilmeyi seviyorum.",
     "stats": {
       "focusLabel": "Odak",
       "focusValue": "Frontend",
