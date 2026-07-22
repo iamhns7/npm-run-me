@@ -69,6 +69,27 @@
   }
 }
 
+/* Typewriter: reveals the signature line character-by-character. Exact in a
+   monospace face because every glyph is 1ch wide, so `steps()` lands cleanly. */
+@keyframes typewriter-in {
+  from {
+    inline-size: 0;
+  }
+  to {
+    inline-size: var(--tw-width);
+  }
+}
+
+@keyframes typewriter-caret {
+  0%,
+  100% {
+    border-color: transparent;
+  }
+  50% {
+    border-color: var(--accent);
+  }
+}
+
 @layer base {
   * {
     border-color: var(--border);
@@ -142,6 +163,22 @@
 
   [dir="rtl"] .eyebrow::before {
     background: linear-gradient(to left, transparent, var(--accent));
+  }
+
+  /* CSS-only typewriter for the hero signature line. Pass the character count
+     via `--tw-steps` and the total width via `--tw-width` (in ch) inline so the
+     component stays reusable and the reveal ends exactly on the last glyph. */
+  .typewriter {
+    display: inline-block;
+    max-inline-size: 100%;
+    inline-size: var(--tw-width);
+    overflow: hidden;
+    white-space: nowrap;
+    vertical-align: bottom;
+    border-inline-end: 0.09em solid var(--accent);
+    animation:
+      typewriter-in 2.4s steps(var(--tw-steps), end) 0.45s both,
+      typewriter-caret 0.9s step-end 0.45s infinite;
   }
 
   /* Subtle accent grid/glow backdrop used behind the hero. */

@@ -1,5 +1,6 @@
 "use client";
 
+import { type CSSProperties } from "react";
 import { motion, useReducedMotion, type Variants } from "motion/react";
 import { ArrowRight, Mail } from "lucide-react";
 import { useTranslations } from "next-intl";
@@ -56,11 +57,18 @@ export function Hero() {
           </span>
         </motion.div>
 
-        <motion.p
-          variants={item}
-          className="mt-8 font-mono text-sm text-accent"
-        >
-          {t("greeting")}
+        <motion.p variants={item} className="mt-8">
+          {/* Language-neutral signature (proper noun + role), typed out via a
+              CSS-only typewriter. --tw-steps/--tw-width must match the glyph
+              count of the string below (30 chars → 30ch). `dir="ltr"` keeps it
+              typing left-to-right even under RTL locales. */}
+          <span
+            dir="ltr"
+            style={{ "--tw-steps": 30, "--tw-width": "30ch" } as CSSProperties}
+            className="typewriter font-mono text-base font-medium text-accent sm:text-lg"
+          >
+            Hasan Sido · Software Engineer
+          </span>
         </motion.p>
 
         <motion.h1
